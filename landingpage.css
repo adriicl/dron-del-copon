@@ -356,4 +356,59 @@ footer p{
     padding: 10px;
     cursor: pointer;
 }
+@media only screen and (max-width: 400px) {
+
+    .backgroundimg {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .logo-img {
+        max-width: 120px;
+    }
+
+    .aboutus-text img {
+        width: 100%;
+    }
+
+    .slogan-section {
+        grid-column: 1;
+        font-size: 100px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .reviews-section h2 {
+        font-size: 30px;
+    }
+
+    .review img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form-text {
+        flex-direction: column;
+    }
+
+    .social-media img {
+        width: 30px;
+        padding: 5px;
+    }
+}
 
