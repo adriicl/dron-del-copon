@@ -6,6 +6,7 @@
     <title>Dronetech</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='landingpage.css'>
+    
 </head>
 <body>
     <section class="backgroundimg">
@@ -13,20 +14,19 @@
             <div class="logo-header">
                 <img src="Imagenes/DronetechLogo.png" alt="Logo de la empresa de drones" class="logo-img">
             </div>
-        </header>
-    
-        <section class="main-section">
             <nav>
                 <div class="menu">
                     <ul>
-                        <li><a href="">Sobre Nosotros</a></li>
-                        <li><a href="">Servicios</a></li>
-                        <li><a href="">Reviews</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#inicio">Sobre Nosotros</a></li>
+                        <li><a href="#tarifas">Servicios</a></li>
+                        <li><a href="#reseñas">Reviews</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </nav>
+        </header>
     
+        <section class="main-section" id="inicio">
             <div class="aboutus-section">
                 <h1>Sobre Nosotros</h1>
                 <div class="aboutus-text">
@@ -46,7 +46,7 @@
         <p class="mask">"Libertad en cada vuelo"</p>
     </section>
     <div class="gradient-bck">
-        <section class="services-section">
+        <section class="services-section" id="tarifas">
             <h2>Nuestros Drones:</h2>
     
             <div class="card-container">
@@ -54,8 +54,8 @@
                     <img src="Imagenes/Dron1.png" alt="Dron 1">
                     <h3>Dron SkyExplorer </h3>
                     <p>Características: Cámara de Alta Resolución, Estabilidad Avanzada en Vuelo, Duración de Batería Extendida, Modo de Seguimiento Automático, GPS Integrado</p>
-                    <p>Precio de Compra: €2,999.99</p>
-                    <p>Precio de Alquiler:  €139.99/dia</p>
+                    <!-- <p>Precio de Compra: €2,999.99</p>
+                    <p>Precio de Alquiler:  €139.99/dia</p> -->
                     <input type="submit" value="Ver Más" class="cta-a">
                 </div>
         
@@ -63,8 +63,8 @@
                     <img src="Imagenes/Dron2.png" alt="Dron 2">
                     <h3>DroneNatureCapture</h3>
                     <p>Características: Silencioso en Vuelo, Duración de Batería Optimizada, GPS para Mapeo de Áreas Naturales, Diseño Resistente a Condiciones Climáticas, Sensores de Evitación de Obstáculos </p>
-                    <p>Precio de Compra:  €2,399.99</p>
-                    <p>Precio de Alquiler: €119.99/dia</p>
+                    <!-- <p>Precio de Compra:  €2,399.99</p>
+                    <p>Precio de Alquiler: €119.99/dia</p> -->
                     <input type="submit" value="Ver Más" class="cta-a">
                 </div>
         
@@ -72,14 +72,22 @@
                     <img src="Imagenes/Dron3.png" alt="Dron 3">
                     <h3>DroneBizMaster</h3>
                     <p>Características: Transmisión en Vivo para Presentaciones Remotas, Diseño Empresarial Elegante y Profesional, GPS Empresarial para Cartografía de Ubicaciones Comerciales</p>
-                    <p>Precio de Compra: €3,999.99</p>
-                    <p>Precio de Alquiler: €159.99/día</p>
+                    <!-- <p>Precio de Compra: €3,999.99</p>
+                    <p>Precio de Alquiler: €159.99/día</p> -->
+                    <input type="submit" value="Ver Más" class="cta-a">
+                </div>
+                <div class="card">
+                    <img src="Imagenes/Dron1.png" alt="Dron 4">
+                    <h3>Air stimulation unit</h3>
+                    <p>It is the most avant-garde and advanced unit on the market. Provides 3 speeds of pleasure with infinite useful life. Don't forget to wash it afterwards!</p>
+                    <!-- <p>Precio de Compra: €2,999.99</p>
+                    <p>Precio de Alquiler:  €139.99/dia</p> -->
                     <input type="submit" value="Ver Más" class="cta-a">
                 </div>
             </div>
         </section>
     
-        <section class="reviews-section">
+        <section class="reviews-section" id="reseñas">
             <h2>Reviews</h2>
     
             <div class="review">
@@ -106,7 +114,7 @@
         </section>
 
           
-    <section class="contact-section">
+    <section class="contact-section" id="contacto">
         <h2>Contacta con Nosotros</h2>
         <form action="procesar_formulario.php" method="post" class="form">
             <label for="nombre">Nombre</label>
@@ -129,9 +137,9 @@
     <footer>
         <img src="Imagenes/DronetechLogo.png" alt="Logo de la empresa">
         <div class="social-media">
-            <img src="Imagenes/instagram.png" alt="instagram">
-            <img src="Imagenes/twitter.png" alt="twitter">
-            <img src="Imagenes/youtube.png" alt="youtube">
+            <a href="https://www.instagram.com/" target="_blank" ><img src="Imagenes/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/?lang=es" target="_blank" ><img src="Imagenes/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/" target="_blank" ><img src="Imagenes/youtube.png" alt="youtube"></a>
         </div>
         <p>&copy; 2024 Empresa de Drones. Todos los derechos reservados.</p>
     </footer>
